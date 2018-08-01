@@ -49,6 +49,21 @@ dbCalls.fetchTypes = () => {
     });
 };
 
+let areaTypes = {};
+
+dbCalls.fetchAreas = () => {
+  return fetch(`https://external-data-56670.firebaseio.com/areas.json`)
+    .then(res => res.json())
+    .then((result) => {
+      // console.log(typeof result);
+      areaTypes = result;
+      return areaTypes;
+    },
+    (error) => {
+       return error;
+    });
+};
+
 dbCalls.getParkInfo = () => {
   return parkInfo;  
 };
