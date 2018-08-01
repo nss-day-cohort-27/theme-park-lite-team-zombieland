@@ -1,10 +1,8 @@
 let db = require("./db-calls.js");
+let listParkInfo = require("./parkInfoList");
 
-let parkInfo = {};
 
 db.fetchParkInfo()
    .then((result) => {
-   parkInfo = result;
+    listParkInfo(result);
 });
-
-module.exports = parkInfo;
