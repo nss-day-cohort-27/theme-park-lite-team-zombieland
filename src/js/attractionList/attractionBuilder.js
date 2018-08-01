@@ -1,5 +1,6 @@
 "use strict";
-attractionLister = ((result => {
+
+function attractionLister (result){
     result.forEach((e => {
         const listDiv = document.querySelector("#attractionList")
         let listTop = document.createElement("ul")
@@ -9,6 +10,9 @@ attractionLister = ((result => {
         listTop.appendChild(listItem)
         listDiv.appendChild(listTop)
     }
-    ))
-}))
+    )
+    )
+}
+
 module.exports = attractionLister
+
