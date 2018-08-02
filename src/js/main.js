@@ -5,4 +5,5 @@ let parkInfo = require("./parkInfo.js");
 let AreaInfo = require("./parkArea.js");
 let dbCalls = require("./db-calls.js");
 let attractionList = require("./attractionList/attractionList.js");
+let typeLister = require("./typeList/typeList.js");
 

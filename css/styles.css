@@ -7,3 +7,10 @@
 #attractionList {
     float: center;
 }
+#parkAreas {
+    float: center;
+}
+
+#attractionType {
+    background-color: rgb(161, 212, 212);
+}
