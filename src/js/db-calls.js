@@ -64,6 +64,6 @@ dbCalls.getParkInfo = () => {
   return parkInfo;
 };
 
-module.exports = attractions;
+// module.exports = attractions;
 module.exports = dbCalls;
 console.log("HELP!", attractions)

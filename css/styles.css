@@ -1,0 +1,9 @@
+
+.card {
+    display: flex;
+    flex-flow: row;
+   
+}
+#attractionList {
+    float: center;
+}
