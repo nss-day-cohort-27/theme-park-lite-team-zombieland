@@ -6,7 +6,6 @@ let makeCapital = require("./makeCapital.js")
 
 dbCalls.fetchTypes()
     .then((result) => {
-        debugger;
         let makeCap = makeCapital(result)
         typeLister(makeCap)
         //console.log(result)
