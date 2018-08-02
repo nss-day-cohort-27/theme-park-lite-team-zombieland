@@ -4,8 +4,8 @@ function attractionLister (result){
     result.forEach((e => {
         const listDiv = document.querySelector("#attractionList")
         let cardDiv = document.createElement("div")
-        cardDiv.classList = "card card-group"
-        cardDiv.style = "width:100px "
+        cardDiv.classList = "card "
+        cardDiv.style = "width:20% "
         let listTop = document.createElement("h2")
         listTop.classList = "card-title"
         listTop.textContent = `${e.name}:`
