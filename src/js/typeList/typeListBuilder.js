@@ -6,6 +6,7 @@ result.forEach(function(element) {
     //console.log(element)
     const getDiv = document.getElementById("attractionType");
     const addHeading = document.createElement("h3");
+    addHeading.classList = "col";
     addHeading.textContent = element;
     getDiv.appendChild(addHeading);
     

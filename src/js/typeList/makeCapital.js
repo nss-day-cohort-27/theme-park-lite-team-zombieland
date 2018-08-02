@@ -4,7 +4,9 @@ let result = require("./typeListBuilder")
 function toTitleCase (result) {
     console.log(result);
 let newMapArray = result.map((x) => {
-    console.log(x)
+    console.log(x);
+    let addS = "s";
+    console.log(name.concat(addS));
         return x.name.charAt(0).toUpperCase() + x.name.slice(1);
         
     
