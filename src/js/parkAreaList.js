@@ -3,9 +3,8 @@ let createParkAreaInfo = require("./parkAreaRep");
 
 let outputEl = document.querySelector("#parkAreas");
 
-function listAreaInfo(info){
-    console.log("list area info", info);
-    outputEl.innerHTML += createParkAreaInfo(info);
+function listAreaInfo(info) {
+    outputEl.innerHTML += info;
 }
 
 module.exports = listAreaInfo;
